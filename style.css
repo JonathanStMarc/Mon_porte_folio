@@ -2,6 +2,8 @@ html,
 body {
     background-color: rgb(71, 71, 199) !important;
     color: aliceblue;
+    width: 100%;
+    overflow-x: hidden;
 }
 #myHeader {
     background-image: url(sources/photoDev.jpg);
@@ -40,7 +42,21 @@ body {
 .card {
     background-color: rgb(71, 71, 199) !important;
     border: 1px solid white !important;
+    width: 10rem !important;
 }
 .card-title {
     color: white;
+}
+
+.containerCompetences {
+    background-color: rgba(137, 43, 226, 0.63);
+}
+.footer {
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+    margin-bottom: 0;
+}
+i {
+    color: inherit;
 }
